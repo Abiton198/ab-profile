@@ -49,6 +49,34 @@ export default function AboutMe(props) {
                   <p ><i className="fa-solid fa-phone"></i>+27 (0) 761 272 025 </p>
                   <p ><i className="fa-regular fa-envelope"></i> abitondev@gmail.com  </p>
                   <p> <a>www.abitondev.com</a> </p>   
+
+                  <div className='about-contacts'>
+                  <ul className="social_list">
+                                                     
+                            <li className="social_item">
+                                <a className="whatsapp" href="http://wa.me/0027761272025">
+                                    <i className="fab fa-whatsapp"></i>
+                                </a></li>
+                                
+                            <li className="social_item">
+                                <a className="twitter" href="https://twitter.com/abitondev?ref_src=twsrc%5Etfw">
+                                    <i className="fab fa-twitter"></i>
+                                </a></li>
+                                
+                            <li className="social_item">
+                                <a className="github" href="https://github.com/Abiton198">
+                                    <i className="fab fa-github"></i>  
+                                </a></li>
+
+                                <li className='social_item'>
+                                <a className='linked-in' href='https://www.linkedin.com/in/abiton-padera-232a6a9a/'>
+                                <i className="fa-brands fa-linkedin-in"></i>
+                                      
+                                </a></li>
+                        </ul>
+
+
+                  </div>
                     
               <div className='interests'>
                     <p ><i class="fa-brands fa-readme"></i>Reading </p>

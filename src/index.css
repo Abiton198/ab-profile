@@ -191,7 +191,7 @@ ul.social_list {
 
 }
 
-.youtube, .whatsapp, .twitter, .facebook, .github , .linked-in {
+.youtube, .whatsapp, .twitter, .facebook, .github{
   padding: .5em;
   text-decoration: none;
   color: rgb(233, 18, 36);
@@ -212,6 +212,11 @@ ul.social_list {
 }
 .linked-in{
 color: rgb(18, 117, 231);
+  padding: .5em;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: #333333;
+  margin: 15px;
 }
 
 
@@ -527,6 +532,13 @@ color: #1ce681;
 .span{
 color: #1ce681;
 }
+.about-contacts{
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 @media (max-width:700px) {
 .my-nav{
