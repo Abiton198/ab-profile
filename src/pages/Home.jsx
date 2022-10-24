@@ -42,6 +42,8 @@ function Home(props) {
 
     
   return (
+    <div className='bg-yellow-500'>
+    
             <div className={`${theme}-theme`}>
 
             <div className='display'>
@@ -75,6 +77,7 @@ function Home(props) {
             
             </div>
         </div>
+    </div>
   )
 }
 

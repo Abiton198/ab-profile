@@ -505,6 +505,7 @@ margin-right: 15px;
 
 .work{
 color: #1ce681;
+margin: 15px;
 } 
 .my-image {
 border-radius: 10%;
@@ -537,6 +538,13 @@ color: #1ce681;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.play{
+  margin: 15px;
+  color: #e2a09b;
+  font-weight: 900;
+  
+  text-decoration: underline;
 }
 
 

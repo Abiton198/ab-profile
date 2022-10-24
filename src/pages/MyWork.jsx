@@ -68,6 +68,7 @@ export default function MyWork(props) {
             </ul>
              <img src={speedgame} alt="" className='my-image'/>
             <a href="https://github.com/Abiton198/speed-typing-game" className="work">Github Repo</a>
+            <a href='https://speed-typing-ab.netlify.app/' className='play'>Play Game!</a>
           </div>
 
               <div className='meme'>
