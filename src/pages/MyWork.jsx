@@ -85,6 +85,7 @@ export default function MyWork(props) {
                 </ul>
                 <img src={meme} alt="" className='my-image'/>
                 <a href="https://github.com/Abiton198/meme-generator" className="work">Github Repo </a>
+                <a href='https://memes-ab.netlify.app/' className='play'>Play Game!</a>
               </div>
           
 

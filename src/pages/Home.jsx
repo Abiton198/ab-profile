@@ -42,7 +42,7 @@ function Home(props) {
 
     
   return (
-    <div className='bg-yellow-500'>
+  
     
             <div className={`${theme}-theme`}>
 
@@ -77,7 +77,7 @@ function Home(props) {
             
             </div>
         </div>
-    </div>
+
   )
 }
 
