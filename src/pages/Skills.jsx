@@ -14,17 +14,17 @@ export default function Skills() {
 
             <div className='skill'>
                 <img src={css} alt='' className='img-skill'/>
-                <p>The standard used in the styling and formatting of web pages.</p>
+                <p className='para-skill'>The standard used in the styling and formatting of web pages.</p>
             </div>
 
             <div className='skill'>
                 <img src={html} alt='' className='img-skill'/>
-                <p>The markup language used for structuring and presenting content.</p>
+                <p className='para-skill'>The markup language used for structuring and presenting content.</p>
             </div>
 
             <div className='skill'>
                     <img src={java} alt='' className='img-skill'/>
-                    <p>A text-based programming language used both on the client-side and 
+                    <p className='para-skill'>A text-based programming language used both on the client-side and 
                     server-side that allows you to make web pages interactive.</p>
             </div>
 
