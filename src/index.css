@@ -91,6 +91,10 @@ h3{font-size: var(--fs-h3);}
     height: 100px;
   }
  
+  .para-skill{
+    padding: 20px;
+    
+  }
 
   .my-image, .portfolio__img{
     max-width: 100%;
