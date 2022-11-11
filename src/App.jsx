@@ -8,6 +8,7 @@ import SocialMedia from './pages/SocialMedia'
 import Toggle from './pages/Toggle'
 import React, { useContext } from 'react'
 import { ThemeContext } from './pages/ThemeContext'
+import Skills from './pages/Skills'
 
 
 export default function App () {
@@ -25,6 +26,7 @@ export default function App () {
            <Route exact path='/' element={<Home/>}/> 
            <Route path='/Services' element={<Services/>}/>
            <Route path='/AboutMe'  element={<AboutMe/>}/>
+           <Route path='/Skills'  element={<Skills/>}/>
            <Route path='/MyWork' element={<MyWork/>}/> 
          
          </Routes>          

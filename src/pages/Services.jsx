@@ -1,10 +1,5 @@
 import React from 'react'
-import css from './img/css.png'
-import html from './img/html.png'
-import java from './img/java.png'
-import netlify from './img/netlify.png'
-import git from './img/git.png'
-import react from './img/react.png'
+
 
 export default function Services (props){
    
@@ -44,30 +39,7 @@ export default function Services (props){
                       minutes on the go!
                     </p>
            
-           <div className='skills'> 
-
-                    <div className='skill'>
-                        <img src={css} alt='' className='img-skill'/>
-                    </div>
-                    <div className='skill'>
-                        <img src={html} alt='' className='img-skill'/>
-                        <p>The markup language used for structuring and presenting content.</p>
-                    </div>
-                    <div className='skill'>
-                        <img src={java} alt='' className='img-skill'/>
-                    </div>
-                    <div className='skill'>
-                        <img src={react} alt='' className='img-skill'/>
-                    </div>
-                    <div className='skill'>
-                        <img src={git} alt='' className='img-skill'/>
-                        <p>A code hosting platform for version control and collaboration.</p>
-                    </div>
-                    <div className='skill'>
-                        <img src={netlify} alt='' className='img-skill'/>
-                    </div>
-
-           </div>
+                    
       
         
     </div>

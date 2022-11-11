@@ -17,6 +17,8 @@ export default function NavBar (props){
                               <Link to='/AboutMe' className='links'>About</Link>
                               <Link to='/Services'className='links'>Services</Link>
                               <Link to='/MyWork' className='links'> Projects</Link>
+                              <Link to='/Skills' className='links'> Skills</Link>
+                              
                           </ul>
                         </nav> 
                   
