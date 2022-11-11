@@ -6,6 +6,7 @@ import netlify from './img/netlify.png'
 import git from './img/git.png'
 import react from './img/react.png'
 import git2 from './img/git2.png'
+import figma from './img/figma.png'
 
 export default function Skills() {
   return (
@@ -15,6 +16,12 @@ export default function Skills() {
             <div className='skill'>
                 <img src={css} alt='' className='img-skill'/>
                 <p className='para-skill'>The standard used in the styling and formatting of web pages.</p>
+            </div>
+
+            <div className='skill'>
+                <img src={figma} alt='' className='img-skill'/>
+                <p className='para-skill'>Web based graphic designs templets that assist in customising 
+                designs for indvidual needs. Complete designs and available for great user experience. </p>
             </div>
 
             <div className='skill'>
