@@ -10,14 +10,14 @@ export default function AboutMe(props) {
 
         <div className="about_me">
               <h2 className="about">Who I am</h2>
-                  <p> <span className='span'>Proffesional Front-end software developer</span>, entry level, with proven 
+                  <p className='para'> <span className='span'>Proffesional Front-end software developer</span>, entry level, with proven 
                     skills in problem solving, good communication and great passion for learning
                      and growing in software development. Gained coding skills through self-paced
                       and project-based learning with <span className='span'>Scrimba</span> , in Front End Developer 
                       Career Path Course.
                   </p>
 
-                  <p>Ambition to be a <span className='span'>full-stack developer</span> and continue to grow analytic skills,
+                  <p className='para'>Ambition to be a <span className='span'>full-stack developer</span> and continue to grow analytic skills,
                      prowess in problem solving. Learning <span className='span'>Arabic Language</span> for the past 3 years 
                      has helped me in strengthening skills, consistency and desire for learning 
                      new and challenging things. The Arabs' Language has managed to really stretch 
@@ -26,14 +26,14 @@ export default function AboutMe(props) {
                       solutions in Arabic.
                   </p>
 
-                  <p>Working as a <span className='span'>garderner </span>has taught me various life principles I intend to implement
+                  <p className='para'>Working as a <span className='span'>garderner </span>has taught me various life principles I intend to implement
                      in coding. When I started coding I planted a seed of a <span className='span'>Palm-date</span> tree, so as long as am 
                      active in coding my growth is guaranteed because I understand 
                      these principles:
                   </p>
                   <div className='plant-points'>
                       <img src={plant} alt='' className='plant'/>
-                      <ul>
+                      <ul className='unordered'>
                         <li>Growth is gradual</li>
                         <li>Learn, learn and learn some more</li>
                         <li>You need the right environment to thrive</li>

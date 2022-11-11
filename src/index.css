@@ -59,7 +59,7 @@ h3{font-size: var(--fs-h3);}
 
 
 /* full-page */
-@media (min-width: 800px){}
+
 /* =====SERVICES====== */
   .services{
       display: flex;
@@ -67,12 +67,27 @@ h3{font-size: var(--fs-h3);}
       text-align:justify ;
       width: 80%;
      margin-left: 100px;
-     margin-right: 100px;
-            
+     margin-right: 100px;         
+  }
+
+  .para-service{
+    padding: 20px;
   }
 
   .title-service{
     text-align: center;
+  }
+
+  .skills{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+  }
+
+  .img-skill{
+    width: 250px;
+    height: 100px;
   }
  
 
@@ -367,7 +382,14 @@ display: flex;
 color: #1ce681;
 line-height:30px;
 padding: 10px;
+margin-left: 30px;
+list-style: circle;
 }
+
+.para {
+  padding: 10px;
+}
+
 
 /* =====HOME===== */
 
