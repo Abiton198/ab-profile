@@ -7,7 +7,7 @@ function Home(props) {
     const {theme} = useContext(ThemeContext)
     const [quote, setQuote] = useState({
         text:'today for tomorrow',
-        author:'Abiton'
+        author: 'Abiton'
     })
 
     useEffect(()=>{

@@ -32,11 +32,10 @@ export default function Services (props){
                       reliable <span className='span'>social media pro</span>. You have arrived, its here!
                     </p>
  
-                    <h3 className='overview'>WordPress</h3>
+                    <h3 className='overview'>Website Value Addition</h3>
                     <p className='para-service'>
-                      Quick setup and go! Meeting individual needs to facilitate growth of business. Call 
-                      for assistance in quick set-up of customized <span className='span'>WordPress website</span>, setting a website in 
-                      minutes on the go!
+                      For the improvements on current running website, anaylsis for business enhancement <span className='span'>value addition</span>. 
+
                     </p>
            
                     
