@@ -14,7 +14,7 @@ import React, { useState} from 'react'
                 <ul className="social_list">
                                                                 
                             <li className="social_item">
-                                <a className="whatsapp" href="http://wa.me/0027761272025">
+                                <a className="whatsapp" href="https://wa.me/0027761272025">
                                     <i className="fab fa-whatsapp"></i>
                                 </a></li>
                                 
