@@ -1,5 +1,5 @@
 import React, {useContext,useEffect, useState} from 'react'
-import abiton from './img/abiton_1.jpeg'
+import abiton from './img/abiton_new.png'
 import {ThemeContext} from './ThemeContext'
 
 

@@ -84,6 +84,10 @@ h3{font-size: var(--fs-h3);}
     height: 50vh;
     border-radius:10%;
       }
+      .my-image{
+        width: 350px;
+        height: 50vh;
+      }
      
  
   .social-media ul{
