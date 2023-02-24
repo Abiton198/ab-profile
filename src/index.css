@@ -560,6 +560,9 @@ color: #1ce681;
   
   text-decoration: underline;
 }
+ul >li {
+  list-style-type: style st;;
+}
 
 
 @media (max-width:700px) {
