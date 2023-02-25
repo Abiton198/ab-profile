@@ -1,15 +1,15 @@
 import React from 'react'
-import css from './img/css.png'
-import html from './img/html.png'
-import java from './img/java.png'
-import netlify from './img/netlify.png'
-import git from './img/git.png'
-import react from './img/react.png'
-import git2 from './img/git2.png'
-import figma from './img/figma.png'
-import bootstrap from './img/bootstrap.png'
+import css from '../img/css.png'
+import html from '../img/html.png'
+import java from '../img/java.png'
+import netlify from '../img/netlify.png'
+import git from '../img/git.png'
+import react from '../img/react.png'
+import git2 from '../img/git2.png'
+import figma from '../img/figma.png'
+import bootstrap from '../img/bootstrap.png'
 
-export default function Skills() {
+const Skills = () => {
   return (
 
 <>
@@ -86,3 +86,4 @@ export default function Skills() {
     </>
   )
 }
+export default Skills

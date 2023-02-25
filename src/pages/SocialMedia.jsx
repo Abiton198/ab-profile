@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 
- function SocialMedia () {
+ const SocialMedia = () => {
     const [show, setShow] = useState(false)
 
    const toggleShow = () => {

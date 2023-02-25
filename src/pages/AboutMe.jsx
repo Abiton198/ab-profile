@@ -1,11 +1,12 @@
 import React, { useContext } from 'react'
-import plant from './img/plant.jpeg'
-import { ThemeContext } from './ThemeContext'
+import plant from '../img/plant.jpeg'
+import { ThemeContext } from '../components/ThemeContext'
 
-export default function AboutMe(props) {
+const AboutMe = (props) => {
   const {theme} = useContext(ThemeContext)
   return (
     <>
+  
     <div className={`${theme}-theme`} >
 
         <div className="about_me">
@@ -89,3 +90,4 @@ export default function AboutMe(props) {
     </>
   )
 }
+export default AboutMe

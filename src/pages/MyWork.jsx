@@ -1,10 +1,10 @@
 import React from 'react'
-import speedgame from './img/speedgame.png'
-import meme from './img/meme.png'
-import portifolio from './img/portifolio.png'
-import landing_page from './img/landing_page.png'
+import speedgame from '../img/speedgame.png'
+import meme from '../img/meme.png'
+import portifolio from '../img/portifolio.png'
+import landing_page from '../img/landing_page.png'
 
-export default function MyWork(props) {
+const MyWork = (props) => {
   return (
     
         <div className="my-work">
@@ -116,3 +116,4 @@ export default function MyWork(props) {
 
   )
 }
+export default MyWork

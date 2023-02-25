@@ -1,8 +1,8 @@
 import React, {useContext} from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
-import { ThemeContext } from './ThemeContext'
+import { ThemeContext } from '../components/ThemeContext'
 
-export default function NavBar (props){
+const NavBar = (props) => {
   const {theme} = useContext(ThemeContext)
 
       return (
@@ -37,6 +37,6 @@ export default function NavBar (props){
                       <Link to={to} {...props}> {children} </Link>
                   </li>           
           )}
-
+export default NavBar
 // to replaces href 
 // Link replaces <a> tag

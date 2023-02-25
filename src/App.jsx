@@ -1,14 +1,15 @@
-import AboutMe from './pages/AboutMe'
-import MyWork  from './pages/MyWork'
-import Services from './pages/Services'
-import Home from './pages/Home'
-import NavBar from './pages/NavBar'
 import { Route, Routes } from 'react-router-dom'
-import SocialMedia from './pages/SocialMedia'
-import Toggle from './pages/Toggle'
 import React, { useContext } from 'react'
-import { ThemeContext } from './pages/ThemeContext'
-import Skills from './pages/Skills'
+import { ThemeContext } from './components/ThemeContext'
+import { Toggle } from './components'
+import {AboutMe,
+        MyWork,
+        Services,
+        Home,
+        NavBar,
+        SocialMedia,
+        Skills
+        } from './pages'
 
 
 export default function App () {

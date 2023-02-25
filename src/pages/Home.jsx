@@ -1,9 +1,9 @@
 import React, {useContext,useEffect, useState} from 'react'
-import abiton from './img/abiton_new.png'
-import {ThemeContext} from './ThemeContext'
+import abiton from '../img/abiton_new.png'
+import {ThemeContext} from '../components/ThemeContext'
 
 
-function Home(props) {
+const Home = (props) => {
     const {theme} = useContext(ThemeContext)
     const [quote, setQuote] = useState({
         text:'today for tomorrow',

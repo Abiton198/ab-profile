@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Services (props){
+const Services = (props) => {
    
           return (
     <div className="services">
@@ -44,3 +44,4 @@ export default function Services (props){
     </div>
   )
 }
+export default Services
