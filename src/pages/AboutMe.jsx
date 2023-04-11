@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import plant from '../img/plant.jpeg'
+import abiton_plant from '../img/abiton_plant.jpg'
 import { ThemeContext } from '../components/ThemeContext'
 
 const AboutMe = (props) => {
@@ -33,7 +33,7 @@ const AboutMe = (props) => {
                      these principles:
                   </p>
                   <div className='plant-points'>
-                      <img src={plant} alt='' className='plant'/>
+                      <img src={abiton_plant} alt='' className='plant'/>
                       <ul className='unordered'>
                         <li>Growth is gradual</li>
                         <li>Learn, learn and learn some more</li>
